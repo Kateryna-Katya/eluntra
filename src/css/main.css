@@ -96,3 +96,32 @@ height: 413px;
 
 }
 }
+/* Disclaimer */
+.disclaimer-section{
+  background-image: url("/img/disclaimer/mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.disclaimer-container{
+  padding: 40px 20px;
+}
+.disclaimer-text{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 133%;
+color: #001431;
+}
+@media only screen and (min-width: 1440px) {
+  .disclaimer-section{
+    background-image: url("/img/disclaimer/desk.png");
+  }
+  .disclaimer-container{
+    padding: 40px 116px;
+  }
+  .disclaimer-text{
+    font-size: 32px;
+line-height: 125%;
+  }
+}
