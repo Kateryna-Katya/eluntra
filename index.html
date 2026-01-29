@@ -2,55 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/eluntra/favicon.svg" />
+    <link rel="icon" type="image/png" href="/eluntra/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Valley of Dreams</title>
     <script type="module" crossorigin src="/eluntra/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/eluntra/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/eluntra/assets/styles-BPKrSuLU.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    -
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+  <div class="container home-container">
+      <h1 class="visually-hidden">Valley of Dreams</h1>
+      <div class="home-wrapper">
+        <picture>
+          <source srcset="/eluntra/assets/logo-desk-CPl6a8em.png 1x, /eluntra/assets/logo-desk@2x-CDCPdhSr.png 2x" media="(min-width: 1439px)" />
+          <source srcset="/eluntra/assets/logo-mob-DdYVorEp.png 1x, /eluntra/assets/logo-mob@2x-CjFC7iQ8.png 2x" media="(max-width: 1438px)" />
+          <img class="hero-logo" src="/eluntra/assets/logo-mob-DdYVorEp.png" alt="Valley of Dreams" loading="lazy" />
+      </picture>
+      <div class="hero-wrapper">
+  <h2 class="home-subtitle">Luck here? It's kinda like water - gentle, but always flowing somewhere.</h2>
+<div class="hero-text-wrapper">
+  <p>During the season of falling sakura petals, a hidden valley awakens.<br/>Here, the Seven Gods of Fortune open their doors, offering guidance and rare gifts to those who wander into their world.</p>
+  <p>Look, this isn't one of those crazy fast games that'll stress you out. Valley of Dreams is more like... finding your groove, you know? Just letting stuff unfold.</p>
+</div>
+  <a class="hero-button" href="#demo">
+      <img class="hero-btn pulse" src="/eluntra/assets/btn-Cib0uXc7.png" alt="Enter the Valley" loading="lazy" />
+  </a>
+</div>
+</div>
+
+</div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    -
 
   </body>
 </html>
