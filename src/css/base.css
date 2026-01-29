@@ -1,32 +1,22 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --font-family: "Oxygen", sans-serif;
+  --second-family: "Sansita", sans-serif;
+  --third-family: "Inter", sans-serif;
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+body{
+  background: #84b9f6;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+color: #151515;
 }
-
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
+h2{
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 44px;
+line-height: 109%;
+text-align: center;
+color: #fff;
+text-shadow: 0 4px 4px 0 #5b9de9;
 }
