@@ -208,3 +208,36 @@ line-height: 125%;
   width: 905px;
  }
 }
+/* Game */
+.game-section{
+  background-image: url("/img/game/mob.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 789px;
+}
+.game-text{
+  margin-top: 40px;
+}
+.desk{
+  display: none;
+}
+@media only screen and (min-width: 1440px) {
+  .game-section{
+    background-image: url("/img/game/desk.png");
+    height: 512px;
+  }
+  .game-title{
+    margin-left: 635px;
+    width: 100%;
+    text-align: left;
+  }
+  .game-text{
+    margin-top: 60px;
+    margin-left: 635px;
+    width: 625px;
+  }
+  .desk{
+    display: block;
+  }
+}
