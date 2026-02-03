@@ -158,3 +158,53 @@ line-height: 125%;
     gap: 30px;
   }
 }
+/* Big */
+.big-section{
+  background-image: url("/img/big/mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+@media only screen and (min-width: 1440px) {
+.big-section{
+  background-image: url("/img/big/desk.png");
+}
+}
+/* Gods */
+.gods-text-wrapper{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+ 
+}
+.gods-text-one{
+  font-weight: 700;
+  text-align: center;
+  color: #0041a2;
+  width: 320px;
+}
+.gods-text-two{
+  text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+ .gods-title{
+  width: 433px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .gods-text-wrapper{
+  margin-top: 60px;
+  gap: 30px;
+ }
+ .gods-text-one{
+  width: 870px;
+ }
+ .mob{
+  display: none;
+ }
+ .gods-text-two{
+  width: 905px;
+ }
+}
