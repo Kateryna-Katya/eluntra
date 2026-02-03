@@ -245,7 +245,7 @@ line-height: 125%;
 .dream-section{
   background-image: url("/img/dream/mob.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top  center;
   background-size: cover;
 }
 .dream-list{
@@ -323,5 +323,35 @@ padding: 74px 22px 27px;
       height: 240px;
       bottom: -30%;
       right: -30%;
+  }
+}
+/* Luck */
+.luck-section{
+  background-image: url("/img/luck/mob.png"), linear-gradient(180deg, #212598 0%, rgba(33, 37, 152, 0) 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
+  background-size: cover, cover;
+  height: 784px;
+}
+.luck-title{
+  text-align: left;
+}
+.luck-text{
+    color: #fff;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 1440px) {
+  .luck-section{
+    background-image: url("/img/luck/desk.png"),linear-gradient(180deg, #212598 0%, rgba(33, 37, 152, 0) 100%);
+  background-position: top  center;
+    height: 480px;
+  }
+  .luck-title{
+    margin-left: 50px;
+  }
+  .luck-text{
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 625px;
   }
 }
