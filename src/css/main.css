@@ -241,3 +241,60 @@ line-height: 125%;
     display: block;
   }
 }
+/* Dream */
+.dream-section{
+  background-image: url("/img/dream/mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.dream-list{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+.dream-item{
+  position: relative;
+    display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      border: 1px solid #1671d9;
+        border-radius: 20px;
+        width: 335px;
+        height: auto;
+        background: #58a6ff;
+        padding: 60px 16px 40px ;
+}
+.number-img{
+  position: absolute;
+  z-index: 1;
+  top: -7%;
+  width: 72px;
+    height: 72px;
+}
+.dream-item-title{
+  font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+}
+.dream-item-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.fish{
+  position: absolute;
+  width: 122px;
+    height: 120px;
+    z-index: 1;
+    bottom: -16%;
+    right: 0;
+}
