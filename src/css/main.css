@@ -355,3 +355,31 @@ padding: 74px 22px 27px;
     width: 625px;
   }
 }
+/* Moments */
+.moments-section{
+  background-image: url("/img/moments/mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 991px;
+}
+.moments-text{
+  margin-top: 40px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14286;
+    color: #fff;
+}
+.momemts-list{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.moments-item{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+    font-weight: 700;
+    color: #fff;
+}
