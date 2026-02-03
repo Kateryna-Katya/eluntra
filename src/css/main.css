@@ -303,7 +303,25 @@ line-height: 125%;
     background-image: url("/img/dream/desk.png");
   }
   .dream-list{
-margin-top: 60px;
+margin-top: 110px;
 flex-direction: row;
+align-items: start;
+margin-left: 28px;
+  }
+  .dream-item{
+width: 364px;
+min-height: 348px;
+padding: 74px 22px 27px;
+  }
+  .number-img{
+    width: 100px;
+      height: 100px;
+      top: -14%;
+  }
+  .fish{
+    width: 245px;
+      height: 240px;
+      bottom: -30%;
+      right: -30%;
   }
 }
