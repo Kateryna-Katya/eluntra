@@ -383,3 +383,22 @@ padding: 74px 22px 27px;
     font-weight: 700;
     color: #fff;
 }
+@media only screen and (min-width: 1440px) {
+  .moments-section{
+     background-image: url("/img/moments/desk.png");
+    height: 663px;
+  }
+  .moments-warpper{
+    margin-right: 60px;
+    margin-left: auto;
+    width: 609px;
+  }
+  .moments-title{
+    text-align: left;
+  }
+  .moments-text{
+    margin-top: 60px;
+    font-size: 36px;
+      line-height: 1.11111;
+  }
+}
