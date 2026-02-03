@@ -229,7 +229,7 @@ line-height: 125%;
   }
   .game-title{
     margin-left: 635px;
-    width: 100%;
+    width: 625px;
     text-align: left;
   }
   .game-text{
@@ -297,4 +297,13 @@ line-height: 125%;
     z-index: 1;
     bottom: -16%;
     right: 0;
+}
+@media only screen and (min-width: 1440px) {
+  .dream-section{
+    background-image: url("/img/dream/desk.png");
+  }
+  .dream-list{
+margin-top: 60px;
+flex-direction: row;
+  }
 }
