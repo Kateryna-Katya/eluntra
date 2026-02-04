@@ -1,0 +1,76 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+
+.background {
+    background: linear-gradient(180deg, #84b9f6 0%, #212498 100%);
+font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.55556;
+    text-align: justify;
+    color: #fff;
+}
+
+.privacy-title {
+font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #2957e6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Oxygen", sans-serif;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.55556;
+    text-align: justify;
+    color: #fff;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+.privacy-title{
+    font-size: 48px;
+        line-height: 1.08333;
+}
+
+
+}
