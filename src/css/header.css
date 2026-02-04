@@ -115,38 +115,47 @@ font-weight: 700;
     display: none;
   }
 
-  .navigation-list {
-    display: flex;
-    justify-content: center;
-    gap: 88px;
-  }
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 
-  .navigation-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.links {
+  position: relative;
+  padding-left: 28px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  transition: font-weight 0.2s ease;
+}
 
-  }
+/* іконка ПЕРЕД текстом */
+.links::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background: url('/img/header/flower.png') no-repeat center / contain;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
 
-  .links {
-    border-radius: 12px;
-    padding: 8px 18px;
-    height: 43px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #fff;
-    transition: all 0.2s ease;
-  }
+/* hover / focus / active */
+.links:hover::before,
+.links:focus::before,
+.links.active::before {
+  opacity: 1;
+}
 
-  .links:hover,
-  .links:focus,
-  .links.active {
-    background-image: url("/img/back.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% 43px;
-  }
-
+.links:hover,
+.links:focus,
+.links.active {
+  font-weight: 700;
+}
 }
