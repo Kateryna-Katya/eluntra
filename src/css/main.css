@@ -414,6 +414,7 @@ padding: 74px 22px 27px;
 
 .demo-container {
   position: relative;
+  padding-bottom: 64px;
 }
 .demo-text{
   margin-top: 24px;
@@ -426,7 +427,7 @@ padding: 74px 22px 27px;
   position: relative;
   max-width: 1200px;
   margin: 40px auto 0;
-  height: 375px;
+  height: 602px;
 }
 
 .game-img {
@@ -441,7 +442,7 @@ width: 335px;
   z-index: 10;
   display: inline-block;
   cursor: pointer;
-  top: 100%;
+  top: 80%;
   left: 50%;
   width: 231px;
   height: 70px;
@@ -465,7 +466,7 @@ width: 335px;
 
 .iframe-wrapper {
   position: absolute;
-  top: 2%;
+  top: 1%;
   left: 35%;
   transform: translateX(-48%);
   width: 68%;
@@ -478,11 +479,11 @@ width: 335px;
 
 #gameIframe {
   width: 137%;
-  height: 285%;
+  height: 178%;
   border: none;
   display: none;
   background: #000;
-border-radius: 30px;
+border-radius: 34px;
 }
 
 /* АКТИВНИЙ СТАН */
