@@ -60,7 +60,8 @@ width: 335px;
 
 
 .menu-list-item {
-position: relative;
+
+padding-right: 28px;
 font-family: "Oxygen", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -68,7 +69,28 @@ font-family: "Oxygen", sans-serif;
   color: #fff;
   transition: all 0.2s ease;
 }
+.menu-item{
+position: relative;  
+}
+.menu-list-item::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background: url('/img/header/flower.png') no-repeat center / contain;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
 
+/* hover / focus / active */
+.menu-list-item:hover::after,
+.menu-list-item:focus::after,
+.menu-list-item.active::after {
+  opacity: 1;
+}
 .menu-list-item:hover,
 .menu-list-item:focus,
 .menu-list-item.active {
