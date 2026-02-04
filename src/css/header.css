@@ -99,7 +99,8 @@ font-weight: 700;
 
 @media screen and (min-width: 1440px) {
   .header {
-    height: 80px;
+    height: 76px;
+    background-image: url("/img/header/desk.png");
   }
 
   .header-container {
