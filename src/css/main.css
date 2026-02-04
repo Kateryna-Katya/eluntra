@@ -385,8 +385,10 @@ padding: 74px 22px 27px;
 }
 @media only screen and (min-width: 1440px) {
   .moments-section{
-     background-image: url("/img/moments/desk.png"), linear-gradient(180deg, #212498 0%, rgba(36, 41, 155, 0) 100%);
-    
+     background-image:linear-gradient(180deg, #212498 0%, rgba(36, 41, 155, 0) 100%),linear-gradient(180deg, rgba(51, 138, 233, 0) 0%, #4287ed 100%), url("/img/moments/desk.png");
+    background-size:100% 130px,100% 160px, cover;
+    background-position: top center,bottom center, top center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
      height: 663px;
   }
   .moments-warpper{
@@ -414,7 +416,7 @@ padding: 74px 22px 27px;
 
 .demo-container {
   position: relative;
-  padding-bottom: 64px;
+
 }
 .demo-text{
   margin-top: 24px;
@@ -525,6 +527,44 @@ border-radius: 34px;
 
 @media only screen and (min-width: 1440px) {
   .demo-section {
-    background-image: url("/img/demo/desk.png");
+    background-image:url("/img/demo/desk.png");
   }
+.moments-text{
+  font-size: 32px;
+    line-height: 1.25;
+}
+.demo-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 60px auto 0;
+height: 569px;
+}
+
+.game-img {
+width: 1010px;
+  height: 569px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iframe-wrapper {
+  position: absolute;
+  top: 3%;
+  left: 42%;
+  transform: translateX(-48%);
+  width: 68%;
+  height: 54%;
+  z-index: 20;
+
+  /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+  pointer-events: none;
+}
+
+#gameIframe {
+  width: 118%;
+  height: 168%;
+  border: none;
+  display: none;
+  background: #000;
+  border-radius: 20px;
+}
   }
